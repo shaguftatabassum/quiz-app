@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title> Quiz competition</title>
+        <link rel ="stylesheet" href="quiz.css">
+    </head>
+        <body>
+            <div class = "wrapper">
+                <div class="quiz">
+                    <div class="quiz_header">
+                        <div classs="quiz_user">
+                            <h3>Welcome to the quiz</h3></div>
+                        <div class="quiz_timer">
+                        <span class="time">00.00</span>
+                    </div>
+                    </div>
+                        <div class="quiz_body">
+                            <div id="questions"></div>
+                            <div id="options"> </div>
+                            <input type="radio" style="vertical-align: middle; margin: 0px;" name="number" id="radiobox" value="a">
+                            <div id="option b"></div>
+                            <input type="radio" style="vertical-align: middle; margin: 0px;" name="number" id="radiobox" value="b" >
+                            <div id="option c"></div>
+                            <input type="radio" name="number" id="radiobox" value="c" >
+                            <br>
+
+                            <button id="btn-next" onclick="next()">Next Question</button>
+                           
+                        </div>
+
+                </div>
+            </div>
+            <script src="quiz.js"></script>
+           
+        </body>
+</html>
